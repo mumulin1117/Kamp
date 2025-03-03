@@ -154,7 +154,7 @@ class KampHelper {
             }
         }
         .disposed(by: kpRxDisposeBag)
-        //2025-03-06 10:24:57
+        //2025-03-06 10:24:57   1741227897
         kpInspireInfinity = [
             "schoolTime":"1741227897",
             "kampKits":"20445412",
