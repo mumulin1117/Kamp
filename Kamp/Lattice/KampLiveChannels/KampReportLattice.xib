@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="KampReportLattice" customModule="Kamp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="591"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pQz-bO-Shx">
+                    <rect key="frame" x="0.0" y="21" width="393" height="570"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xXn-k0-Qmd">
+                            <rect key="frame" x="20" y="90" width="353" height="67"/>
+                            <string key="text">Have you noticed any inappropriate content or behavior in this live streaming room? If so, you can report it to help maintain a healthy live streaming environment.</string>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <color key="textColor" red="0.68235294117647061" green="0.66274509803921566" blue="0.71764705882352942" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDN-H5-eVQ">
+                            <rect key="frame" x="20" y="184" width="353" height="150"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kpCreateLiveRoomEdit" translatesAutoresizingMaskIntoConstraints="NO" id="l2b-qG-hrE">
+                                    <rect key="frame" x="17" y="17" width="14" height="14"/>
+                                </imageView>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="6Ap-Tf-umv">
+                                    <rect key="frame" x="43" y="7" width="295" height="128"/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please describe the reason for your report..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UNN-iF-7da">
+                                    <rect key="frame" x="38" y="15" width="301" height="18"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" red="0.2156862745" green="0.16862745100000001" blue="0.29411764709999999" alpha="0.65000000000000002" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <constraints>
+                                <constraint firstItem="6Ap-Tf-umv" firstAttribute="leading" secondItem="l2b-qG-hrE" secondAttribute="trailing" constant="12" id="4ou-FA-lyR"/>
+                                <constraint firstItem="UNN-iF-7da" firstAttribute="top" secondItem="FDN-H5-eVQ" secondAttribute="top" constant="15" id="FJG-Pv-OU2"/>
+                                <constraint firstAttribute="height" constant="150" id="FJV-Fi-cdi"/>
+                                <constraint firstAttribute="trailing" secondItem="UNN-iF-7da" secondAttribute="trailing" constant="14" id="HMh-Fm-sxk"/>
+                                <constraint firstItem="6Ap-Tf-umv" firstAttribute="top" secondItem="FDN-H5-eVQ" secondAttribute="top" constant="7" id="HWz-hq-Mv1"/>
+                                <constraint firstItem="l2b-qG-hrE" firstAttribute="top" secondItem="FDN-H5-eVQ" secondAttribute="top" constant="17" id="LGs-cn-DAX"/>
+                                <constraint firstAttribute="bottom" secondItem="6Ap-Tf-umv" secondAttribute="bottom" constant="15" id="UL9-xQ-iUl"/>
+                                <constraint firstItem="l2b-qG-hrE" firstAttribute="leading" secondItem="FDN-H5-eVQ" secondAttribute="leading" constant="17" id="VQj-qc-TOi"/>
+                                <constraint firstAttribute="trailing" secondItem="6Ap-Tf-umv" secondAttribute="trailing" constant="15" id="t6O-uF-wAp"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                    <integer key="value" value="16"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sUf-Rh-7fx">
+                            <rect key="frame" x="20" y="420" width="353" height="53"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="53" id="6HJ-hw-mHb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Submit" backgroundImage="loginKampButton">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </state>
+                            <connections>
+                                <action selector="operationButtonRelay:" destination="iN0-l3-epB" eventType="touchUpInside" id="27I-X9-qYc"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Vf-VO-zT5">
+                            <rect key="frame" x="20" y="475" width="353" height="53"/>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="16"/>
+                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                            <state key="normal" title="Cancel">
+                                <color key="titleColor" red="0.86274509799999999" green="0.14117647059999999" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="operationButtonRelay:" destination="iN0-l3-epB" eventType="touchUpInside" id="lZN-Vm-HJN"/>
+                            </connections>
+                        </button>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ReportLatticeTip" translatesAutoresizingMaskIntoConstraints="NO" id="Mav-6z-urX">
+                            <rect key="frame" x="20" y="28" width="69" height="22"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" red="0.070588235289999995" green="0.047058823530000002" blue="0.2901960784" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="Mav-6z-urX" firstAttribute="leading" secondItem="pQz-bO-Shx" secondAttribute="leading" constant="20" id="5Wp-i3-yoa"/>
+                        <constraint firstItem="xXn-k0-Qmd" firstAttribute="leading" secondItem="pQz-bO-Shx" secondAttribute="leading" constant="20" id="8RL-Jg-HOO"/>
+                        <constraint firstItem="5Vf-VO-zT5" firstAttribute="top" secondItem="sUf-Rh-7fx" secondAttribute="bottom" constant="2" id="B8n-Uz-roK"/>
+                        <constraint firstItem="Mav-6z-urX" firstAttribute="top" secondItem="pQz-bO-Shx" secondAttribute="top" constant="28" id="G8F-Qn-oMc"/>
+                        <constraint firstItem="FDN-H5-eVQ" firstAttribute="top" secondItem="xXn-k0-Qmd" secondAttribute="bottom" constant="27" id="Kdn-ir-iVR"/>
+                        <constraint firstItem="FDN-H5-eVQ" firstAttribute="trailing" secondItem="xXn-k0-Qmd" secondAttribute="trailing" id="eWx-PK-LHd"/>
+                        <constraint firstItem="5Vf-VO-zT5" firstAttribute="trailing" secondItem="FDN-H5-eVQ" secondAttribute="trailing" id="jbN-iX-uhc"/>
+                        <constraint firstItem="5Vf-VO-zT5" firstAttribute="leading" secondItem="sUf-Rh-7fx" secondAttribute="leading" id="lyi-x6-dUu"/>
+                        <constraint firstItem="5Vf-VO-zT5" firstAttribute="leading" secondItem="FDN-H5-eVQ" secondAttribute="leading" id="mMS-En-YKg"/>
+                        <constraint firstItem="FDN-H5-eVQ" firstAttribute="leading" secondItem="xXn-k0-Qmd" secondAttribute="leading" id="oe2-6G-YZe"/>
+                        <constraint firstAttribute="bottom" secondItem="5Vf-VO-zT5" secondAttribute="bottom" constant="42" id="sHO-8g-oY8"/>
+                        <constraint firstItem="5Vf-VO-zT5" firstAttribute="height" secondItem="sUf-Rh-7fx" secondAttribute="height" id="yuL-5b-4WZ"/>
+                        <constraint firstItem="5Vf-VO-zT5" firstAttribute="trailing" secondItem="sUf-Rh-7fx" secondAttribute="trailing" id="zmB-Nv-MTH"/>
+                        <constraint firstAttribute="trailing" secondItem="xXn-k0-Qmd" secondAttribute="trailing" constant="20" id="zp0-n0-mpZ"/>
+                    </constraints>
+                </view>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reportKampIcon" translatesAutoresizingMaskIntoConstraints="NO" id="1Rg-Xy-5z3">
+                    <rect key="frame" x="271" y="0.0" width="100" height="100"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="1Rg-Xy-5z3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="3Z5-Az-rwa"/>
+                <constraint firstItem="xXn-k0-Qmd" firstAttribute="top" secondItem="1Rg-Xy-5z3" secondAttribute="bottom" constant="11" id="6wV-8C-Uw0"/>
+                <constraint firstAttribute="trailing" secondItem="1Rg-Xy-5z3" secondAttribute="trailing" constant="22" id="Iw8-ce-faJ"/>
+                <constraint firstItem="pQz-bO-Shx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="S3N-75-z0c"/>
+                <constraint firstItem="pQz-bO-Shx" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="21" id="dMI-ih-BSP"/>
+                <constraint firstAttribute="bottom" secondItem="pQz-bO-Shx" secondAttribute="bottom" id="iiz-aT-aKz"/>
+                <constraint firstAttribute="trailing" secondItem="pQz-bO-Shx" secondAttribute="trailing" id="mzo-1u-XSB"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="kampReportContentView" destination="pQz-bO-Shx" id="q1s-GZ-ZCr"/>
+                <outlet property="kpReportPlaceholder" destination="UNN-iF-7da" id="Lcq-Yh-aUQ"/>
+                <outlet property="reportKpInput" destination="6Ap-Tf-umv" id="Z1a-Ex-V3c"/>
+            </connections>
+            <point key="canvasLocation" x="140" y="-1"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ReportLatticeTip" width="68.666664123535156" height="21.666666030883789"/>
+        <image name="kpCreateLiveRoomEdit" width="14" height="14"/>
+        <image name="loginKampButton" width="295" height="50"/>
+        <image name="reportKampIcon" width="100" height="100"/>
+    </resources>
+</document>

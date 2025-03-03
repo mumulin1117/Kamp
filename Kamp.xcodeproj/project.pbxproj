@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040184052CFD8D3900D87A43 /* KpAccountLoginEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040184042CFD8D3900D87A43 /* KpAccountLoginEngageCore.swift */; };
+		040184072CFD8E5000D87A43 /* KampHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040184062CFD8E5000D87A43 /* KampHelper.swift */; };
+		040CE6D22D069E9000FB7AF2 /* KpLiveMommentsLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040CE6D12D069E9000FB7AF2 /* KpLiveMommentsLatticeCell.swift */; };
+		0426C63E2D1CFDD2006ADA85 /* KpUserAgreementEngateCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0426C63D2D1CFDD2006ADA85 /* KpUserAgreementEngateCore.swift */; };
+		0428D8022CFD65F8000473EC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D7F82CFD65F8000473EC /* AppDelegate.swift */; };
+		0428D8032CFD65F8000473EC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D7FF2CFD65F8000473EC /* SceneDelegate.swift */; };
+		0428D8052CFD65F8000473EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428D7F92CFD65F8000473EC /* Assets.xcassets */; };
+		0428D8072CFD65F8000473EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428D7FC2CFD65F8000473EC /* LaunchScreen.storyboard */; };
+		0428D8082CFD65F8000473EC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0428D7FE2CFD65F8000473EC /* Main.storyboard */; };
+		0428D80F2CFD8283000473EC /* EngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D80E2CFD8283000473EC /* EngageCore.swift */; };
+		0428D8122CFD85AF000473EC /* LoginKampEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0428D8112CFD85AF000473EC /* LoginKampEngageCore.swift */; };
+		043664F32CFEDEFD0055F2A4 /* KampLivIngEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043664F22CFEDEFD0055F2A4 /* KampLivIngEngageCore.swift */; };
+		043664F52CFEE2970055F2A4 /* KampLivIngGiftLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043664F42CFEE2970055F2A4 /* KampLivIngGiftLattice.swift */; };
+		043664FA2CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043664F82CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.swift */; };
+		043664FB2CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043664F92CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.xib */; };
+		043664FD2CFEEC870055F2A4 /* KampLivIngGiftLattice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 043664FC2CFEEC870055F2A4 /* KampLivIngGiftLattice.xib */; };
+		044F2DB12CFF02CD006A66BF /* MomentCollectionLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F2DB02CFF02CD006A66BF /* MomentCollectionLatticeCell.swift */; };
+		044F97692CFFED52009AC6C9 /* MomentsDetailEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F97682CFFED52009AC6C9 /* MomentsDetailEngageCore.swift */; };
+		044F976B2CFFEE4A009AC6C9 /* MomentsDetailCommentlattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F976A2CFFEE4A009AC6C9 /* MomentsDetailCommentlattice.swift */; };
+		044F976D2CFFEE52009AC6C9 /* MomentsDetailCommentlattice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044F976C2CFFEE52009AC6C9 /* MomentsDetailCommentlattice.xib */; };
+		044F97702D000007009AC6C9 /* SelectChannelLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F976F2D000007009AC6C9 /* SelectChannelLattice.swift */; };
+		044F97722D00000C009AC6C9 /* SelectChannelLattice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 044F97712D00000C009AC6C9 /* SelectChannelLattice.xib */; };
+		044F97752D0032E9009AC6C9 /* PeerSparkCollectionLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F97742D0032E9009AC6C9 /* PeerSparkCollectionLatticeCell.swift */; };
+		044F97772D0032FF009AC6C9 /* PeerSparkTableLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F97762D0032FF009AC6C9 /* PeerSparkTableLatticeCell.swift */; };
+		044F97792D00368C009AC6C9 /* PeerSparkDetailEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F97782D00368C009AC6C9 /* PeerSparkDetailEngageCore.swift */; };
+		044F977B2D004481009AC6C9 /* PeerSparkDetailTableViewLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F977A2D004481009AC6C9 /* PeerSparkDetailTableViewLatticeCell.swift */; };
+		044F977D2D0049E3009AC6C9 /* MomentKampPublicEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044F977C2D0049E3009AC6C9 /* MomentKampPublicEngageCore.swift */; };
+		04552C8C2D096AE30019306A /* UserAgreementEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04552C8B2D096AE30019306A /* UserAgreementEngageCore.swift */; };
+		04798B392CFD90F400B02534 /* KampOrchestratorEngateCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B382CFD90F400B02534 /* KampOrchestratorEngateCore.swift */; };
+		04798B3B2CFD95A500B02534 /* KampTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B3A2CFD95A500B02534 /* KampTabbarController.swift */; };
+		04798B412CFD967700B02534 /* KampLiveChannelEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B402CFD967700B02534 /* KampLiveChannelEngageCore.swift */; };
+		04798B432CFD968600B02534 /* MomentsEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B422CFD968600B02534 /* MomentsEngageCore.swift */; };
+		04798B452CFD968F00B02534 /* PeerSparkEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B442CFD968F00B02534 /* PeerSparkEngageCore.swift */; };
+		04798B472CFD969900B02534 /* SkillShowroomEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B462CFD969900B02534 /* SkillShowroomEngageCore.swift */; };
+		04798B4A2CFDA90000B02534 /* StudySphereEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B492CFDA90000B02534 /* StudySphereEngageCore.swift */; };
+		04798B4D2CFDB3CD00B02534 /* KampLiveChannelLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B4C2CFDB3CD00B02534 /* KampLiveChannelLattice.swift */; };
+		04798B4F2CFDB8F000B02534 /* liveCollectionLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04798B4E2CFDB8F000B02534 /* liveCollectionLatticeCell.swift */; };
+		047A0CC72D028B770069F000 /* KampReportLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A0CC62D028B770069F000 /* KampReportLattice.swift */; };
+		047A0CC92D028B7F0069F000 /* KampReportLattice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047A0CC82D028B7F0069F000 /* KampReportLattice.xib */; };
+		047A0CCB2D02983A0069F000 /* KampReportOrBlockLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A0CCA2D02983A0069F000 /* KampReportOrBlockLattice.swift */; };
+		047A0CCD2D0298420069F000 /* KampReportOrBlockLattice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 047A0CCC2D0298420069F000 /* KampReportOrBlockLattice.xib */; };
+		047A0CCF2D02A33C0069F000 /* KampLiveLinkEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A0CCE2D02A33C0069F000 /* KampLiveLinkEngageCore.swift */; };
+		049C45F42D014DA7001F4198 /* ShowRoomInfoReusableLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C45F32D014DA7001F4198 /* ShowRoomInfoReusableLattice.swift */; };
+		049C45F62D014E8F001F4198 /* ShowRoomLiveReusableLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C45F52D014E8F001F4198 /* ShowRoomLiveReusableLattice.swift */; };
+		049C45F82D014EC1001F4198 /* ShowRoomCollectionLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C45F72D014EC1001F4198 /* ShowRoomCollectionLatticeCell.swift */; };
+		049C45FB2D0156B0001F4198 /* KampSettingEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049C45FA2D0156B0001F4198 /* KampSettingEngageCore.swift */; };
+		04B877632D015A1200403674 /* KampSettingTableViewLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B877622D015A1200403674 /* KampSettingTableViewLatticeCell.swift */; };
+		04B90C3A2D018E24001FE18F /* KampChestEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B90C392D018E24001FE18F /* KampChestEngageCore.swift */; };
+		04B90C3C2D01909F001FE18F /* KampChestCollectionLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B90C3B2D01909F001FE18F /* KampChestCollectionLatticeCell.swift */; };
+		04B90C3E2D0198B9001FE18F /* TalentHive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B90C3D2D0198B9001FE18F /* TalentHive.swift */; };
+		04B90C412D01A91F001FE18F /* KampPolicyLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B90C402D01A91F001FE18F /* KampPolicyLattice.swift */; };
+		04B90C432D01A925001FE18F /* KampPolicyLattice.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04B90C422D01A925001FE18F /* KampPolicyLattice.xib */; };
+		04BBE6E42CFEA7B200FBF9D8 /* ChannelDetailLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBE6E32CFEA7B200FBF9D8 /* ChannelDetailLatticeCell.swift */; };
+		04BBE6E62CFEA7EE00FBF9D8 /* ChannelDetailEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBE6E52CFEA7EE00FBF9D8 /* ChannelDetailEngageCore.swift */; };
+		04BBE6E82CFEAE9400FBF9D8 /* StartUniMateAIEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBE6E72CFEAE9400FBF9D8 /* StartUniMateAIEngageCore.swift */; };
+		04BBE6EA2CFEAEF400FBF9D8 /* StartUniMateAIContentEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04BBE6E92CFEAEF400FBF9D8 /* StartUniMateAIContentEngageCore.swift */; };
+		04C999CD2D07DC6D001B19F6 /* KpLiveGiftShowTableViewLatticeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C999CC2D07DC6D001B19F6 /* KpLiveGiftShowTableViewLatticeCell.swift */; };
+		04C999CF2D08151F001B19F6 /* KpUnimateAiLocalLattice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C999CE2D08151F001B19F6 /* KpUnimateAiLocalLattice.swift */; };
+		04D4440D2D01805E00D3C1D5 /* KampAboutEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4440C2D01805E00D3C1D5 /* KampAboutEngageCore.swift */; };
+		04D4440F2D01806A00D3C1D5 /* KampFeedbackEngageCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D4440E2D01806900D3C1D5 /* KampFeedbackEngageCore.swift */; };
+		63ED4B0010F022FC8A5BFC4A /* Pods_Kamp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 394B5194ECDBCE9632BFAA43 /* Pods_Kamp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040184042CFD8D3900D87A43 /* KpAccountLoginEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpAccountLoginEngageCore.swift; sourceTree = "<group>"; };
+		040184062CFD8E5000D87A43 /* KampHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampHelper.swift; sourceTree = "<group>"; };
+		040CE6D12D069E9000FB7AF2 /* KpLiveMommentsLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpLiveMommentsLatticeCell.swift; sourceTree = "<group>"; };
+		0426C63D2D1CFDD2006ADA85 /* KpUserAgreementEngateCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpUserAgreementEngateCore.swift; sourceTree = "<group>"; };
+		0428D7E02CFD65E5000473EC /* Kamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428D7F82CFD65F8000473EC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0428D7F92CFD65F8000473EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0428D7FA2CFD65F8000473EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428D7FB2CFD65F8000473EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0428D7FD2CFD65F8000473EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0428D7FF2CFD65F8000473EC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		0428D80E2CFD8283000473EC /* EngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EngageCore.swift; sourceTree = "<group>"; };
+		0428D8112CFD85AF000473EC /* LoginKampEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginKampEngageCore.swift; sourceTree = "<group>"; };
+		043664F22CFEDEFD0055F2A4 /* KampLivIngEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampLivIngEngageCore.swift; sourceTree = "<group>"; };
+		043664F42CFEE2970055F2A4 /* KampLivIngGiftLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampLivIngGiftLattice.swift; sourceTree = "<group>"; };
+		043664F82CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampLivIngGiftLatticeCell.swift; sourceTree = "<group>"; };
+		043664F92CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KampLivIngGiftLatticeCell.xib; sourceTree = "<group>"; };
+		043664FC2CFEEC870055F2A4 /* KampLivIngGiftLattice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KampLivIngGiftLattice.xib; sourceTree = "<group>"; };
+		044F2DB02CFF02CD006A66BF /* MomentCollectionLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCollectionLatticeCell.swift; sourceTree = "<group>"; };
+		044F97682CFFED52009AC6C9 /* MomentsDetailEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsDetailEngageCore.swift; sourceTree = "<group>"; };
+		044F976A2CFFEE4A009AC6C9 /* MomentsDetailCommentlattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsDetailCommentlattice.swift; sourceTree = "<group>"; };
+		044F976C2CFFEE52009AC6C9 /* MomentsDetailCommentlattice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentsDetailCommentlattice.xib; sourceTree = "<group>"; };
+		044F976F2D000007009AC6C9 /* SelectChannelLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectChannelLattice.swift; sourceTree = "<group>"; };
+		044F97712D00000C009AC6C9 /* SelectChannelLattice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectChannelLattice.xib; sourceTree = "<group>"; };
+		044F97742D0032E9009AC6C9 /* PeerSparkCollectionLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSparkCollectionLatticeCell.swift; sourceTree = "<group>"; };
+		044F97762D0032FF009AC6C9 /* PeerSparkTableLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSparkTableLatticeCell.swift; sourceTree = "<group>"; };
+		044F97782D00368C009AC6C9 /* PeerSparkDetailEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSparkDetailEngageCore.swift; sourceTree = "<group>"; };
+		044F977A2D004481009AC6C9 /* PeerSparkDetailTableViewLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSparkDetailTableViewLatticeCell.swift; sourceTree = "<group>"; };
+		044F977C2D0049E3009AC6C9 /* MomentKampPublicEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentKampPublicEngageCore.swift; sourceTree = "<group>"; };
+		04552C8B2D096AE30019306A /* UserAgreementEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgreementEngageCore.swift; sourceTree = "<group>"; };
+		04798B382CFD90F400B02534 /* KampOrchestratorEngateCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampOrchestratorEngateCore.swift; sourceTree = "<group>"; };
+		04798B3A2CFD95A500B02534 /* KampTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampTabbarController.swift; sourceTree = "<group>"; };
+		04798B402CFD967700B02534 /* KampLiveChannelEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampLiveChannelEngageCore.swift; sourceTree = "<group>"; };
+		04798B422CFD968600B02534 /* MomentsEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsEngageCore.swift; sourceTree = "<group>"; };
+		04798B442CFD968F00B02534 /* PeerSparkEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerSparkEngageCore.swift; sourceTree = "<group>"; };
+		04798B462CFD969900B02534 /* SkillShowroomEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillShowroomEngageCore.swift; sourceTree = "<group>"; };
+		04798B492CFDA90000B02534 /* StudySphereEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySphereEngageCore.swift; sourceTree = "<group>"; };
+		04798B4C2CFDB3CD00B02534 /* KampLiveChannelLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampLiveChannelLattice.swift; sourceTree = "<group>"; };
+		04798B4E2CFDB8F000B02534 /* liveCollectionLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = liveCollectionLatticeCell.swift; sourceTree = "<group>"; };
+		047A0CC62D028B770069F000 /* KampReportLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampReportLattice.swift; sourceTree = "<group>"; };
+		047A0CC82D028B7F0069F000 /* KampReportLattice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KampReportLattice.xib; sourceTree = "<group>"; };
+		047A0CCA2D02983A0069F000 /* KampReportOrBlockLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampReportOrBlockLattice.swift; sourceTree = "<group>"; };
+		047A0CCC2D0298420069F000 /* KampReportOrBlockLattice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KampReportOrBlockLattice.xib; sourceTree = "<group>"; };
+		047A0CCE2D02A33C0069F000 /* KampLiveLinkEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampLiveLinkEngageCore.swift; sourceTree = "<group>"; };
+		047D494E2D1E5A1C00309569 /* Kamp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Kamp.entitlements; sourceTree = "<group>"; };
+		049C45F32D014DA7001F4198 /* ShowRoomInfoReusableLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRoomInfoReusableLattice.swift; sourceTree = "<group>"; };
+		049C45F52D014E8F001F4198 /* ShowRoomLiveReusableLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRoomLiveReusableLattice.swift; sourceTree = "<group>"; };
+		049C45F72D014EC1001F4198 /* ShowRoomCollectionLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowRoomCollectionLatticeCell.swift; sourceTree = "<group>"; };
+		049C45FA2D0156B0001F4198 /* KampSettingEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampSettingEngageCore.swift; sourceTree = "<group>"; };
+		04B877622D015A1200403674 /* KampSettingTableViewLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampSettingTableViewLatticeCell.swift; sourceTree = "<group>"; };
+		04B90C392D018E24001FE18F /* KampChestEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampChestEngageCore.swift; sourceTree = "<group>"; };
+		04B90C3B2D01909F001FE18F /* KampChestCollectionLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampChestCollectionLatticeCell.swift; sourceTree = "<group>"; };
+		04B90C3D2D0198B9001FE18F /* TalentHive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalentHive.swift; sourceTree = "<group>"; };
+		04B90C402D01A91F001FE18F /* KampPolicyLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampPolicyLattice.swift; sourceTree = "<group>"; };
+		04B90C422D01A925001FE18F /* KampPolicyLattice.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = KampPolicyLattice.xib; sourceTree = "<group>"; };
+		04BBE6E32CFEA7B200FBF9D8 /* ChannelDetailLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailLatticeCell.swift; sourceTree = "<group>"; };
+		04BBE6E52CFEA7EE00FBF9D8 /* ChannelDetailEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelDetailEngageCore.swift; sourceTree = "<group>"; };
+		04BBE6E72CFEAE9400FBF9D8 /* StartUniMateAIEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUniMateAIEngageCore.swift; sourceTree = "<group>"; };
+		04BBE6E92CFEAEF400FBF9D8 /* StartUniMateAIContentEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartUniMateAIContentEngageCore.swift; sourceTree = "<group>"; };
+		04C999CC2D07DC6D001B19F6 /* KpLiveGiftShowTableViewLatticeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpLiveGiftShowTableViewLatticeCell.swift; sourceTree = "<group>"; };
+		04C999CE2D08151F001B19F6 /* KpUnimateAiLocalLattice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KpUnimateAiLocalLattice.swift; sourceTree = "<group>"; };
+		04D4440C2D01805E00D3C1D5 /* KampAboutEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampAboutEngageCore.swift; sourceTree = "<group>"; };
+		04D4440E2D01806900D3C1D5 /* KampFeedbackEngageCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KampFeedbackEngageCore.swift; sourceTree = "<group>"; };
+		2D5F6AB6D16D2636FF6DA7ED /* Pods-Kamp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kamp.debug.xcconfig"; path = "Target Support Files/Pods-Kamp/Pods-Kamp.debug.xcconfig"; sourceTree = "<group>"; };
+		394B5194ECDBCE9632BFAA43 /* Pods_Kamp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Kamp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		526785AF023EF9A0E653D73A /* Pods-Kamp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Kamp.release.xcconfig"; path = "Target Support Files/Pods-Kamp/Pods-Kamp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428D7DD2CFD65E5000473EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63ED4B0010F022FC8A5BFC4A /* Pods_Kamp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0428D7D72CFD65E5000473EC = {
+			isa = PBXGroup;
+			children = (
+				0428D8012CFD65F8000473EC /* Kamp */,
+				0428D7E12CFD65E5000473EC /* Products */,
+				91F5EEE7FA2E6BEECEA4D6C3 /* Pods */,
+				6F7D36DC8ABAB866183FA873 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0428D7E12CFD65E5000473EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0428D7E02CFD65E5000473EC /* Kamp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0428D8012CFD65F8000473EC /* Kamp */ = {
+			isa = PBXGroup;
+			children = (
+				047D494E2D1E5A1C00309569 /* Kamp.entitlements */,
+				0428D80C2CFD824D000473EC /* Public */,
+				0428D80A2CFD8233000473EC /* Lattice */,
+				0428D8092CFD81C6000473EC /* EngageCore */,
+				0428D7F82CFD65F8000473EC /* AppDelegate.swift */,
+				0428D7F92CFD65F8000473EC /* Assets.xcassets */,
+				0428D7FA2CFD65F8000473EC /* Info.plist */,
+				0428D7FC2CFD65F8000473EC /* LaunchScreen.storyboard */,
+				0428D7FE2CFD65F8000473EC /* Main.storyboard */,
+				0428D7FF2CFD65F8000473EC /* SceneDelegate.swift */,
+			);
+			path = Kamp;
+			sourceTree = "<group>";
+		};
+		0428D8092CFD81C6000473EC /* EngageCore */ = {
+			isa = PBXGroup;
+			children = (
+				04798B482CFDA8F200B02534 /* StudySphere */,
+				04798B3C2CFD95E300B02534 /* KampLiveChannels */,
+				04798B3D2CFD95F600B02534 /* Moments */,
+				04798B3E2CFD963100B02534 /* PeerSpark */,
+				04798B3F2CFD964B00B02534 /* SkillShowroom */,
+				0428D8102CFD858B000473EC /* LoginKamp */,
+				0428D80D2CFD826A000473EC /* BaseEngageCore */,
+			);
+			path = EngageCore;
+			sourceTree = "<group>";
+		};
+		0428D80A2CFD8233000473EC /* Lattice */ = {
+			isa = PBXGroup;
+			children = (
+				04B90C3F2D01A904001FE18F /* LoginKamp */,
+				049C45F22D014D0E001F4198 /* SkillShowroom */,
+				044F97732D0032B2009AC6C9 /* PeerSpark */,
+				044F976E2CFFFFEE009AC6C9 /* StudySphere */,
+				044F2DAF2CFF02B6006A66BF /* Moments */,
+				04798B4B2CFDB3A400B02534 /* KampLiveChannels */,
+			);
+			path = Lattice;
+			sourceTree = "<group>";
+		};
+		0428D80C2CFD824D000473EC /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				040184062CFD8E5000D87A43 /* KampHelper.swift */,
+				04B90C3D2D0198B9001FE18F /* TalentHive.swift */,
+			);
+			path = Public;
+			sourceTree = "<group>";
+		};
+		0428D80D2CFD826A000473EC /* BaseEngageCore */ = {
+			isa = PBXGroup;
+			children = (
+				0428D80E2CFD8283000473EC /* EngageCore.swift */,
+				04798B3A2CFD95A500B02534 /* KampTabbarController.swift */,
+				04798B382CFD90F400B02534 /* KampOrchestratorEngateCore.swift */,
+			);
+			path = BaseEngageCore;
+			sourceTree = "<group>";
+		};
+		0428D8102CFD858B000473EC /* LoginKamp */ = {
+			isa = PBXGroup;
+			children = (
+				0428D8112CFD85AF000473EC /* LoginKampEngageCore.swift */,
+				040184042CFD8D3900D87A43 /* KpAccountLoginEngageCore.swift */,
+				0426C63D2D1CFDD2006ADA85 /* KpUserAgreementEngateCore.swift */,
+			);
+			path = LoginKamp;
+			sourceTree = "<group>";
+		};
+		044F2DAF2CFF02B6006A66BF /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				044F2DB02CFF02CD006A66BF /* MomentCollectionLatticeCell.swift */,
+				044F976A2CFFEE4A009AC6C9 /* MomentsDetailCommentlattice.swift */,
+				044F976C2CFFEE52009AC6C9 /* MomentsDetailCommentlattice.xib */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		044F976E2CFFFFEE009AC6C9 /* StudySphere */ = {
+			isa = PBXGroup;
+			children = (
+				044F976F2D000007009AC6C9 /* SelectChannelLattice.swift */,
+				044F97712D00000C009AC6C9 /* SelectChannelLattice.xib */,
+			);
+			path = StudySphere;
+			sourceTree = "<group>";
+		};
+		044F97732D0032B2009AC6C9 /* PeerSpark */ = {
+			isa = PBXGroup;
+			children = (
+				044F97742D0032E9009AC6C9 /* PeerSparkCollectionLatticeCell.swift */,
+				044F97762D0032FF009AC6C9 /* PeerSparkTableLatticeCell.swift */,
+				044F977A2D004481009AC6C9 /* PeerSparkDetailTableViewLatticeCell.swift */,
+			);
+			path = PeerSpark;
+			sourceTree = "<group>";
+		};
+		04798B3C2CFD95E300B02534 /* KampLiveChannels */ = {
+			isa = PBXGroup;
+			children = (
+				04798B402CFD967700B02534 /* KampLiveChannelEngageCore.swift */,
+				04BBE6E52CFEA7EE00FBF9D8 /* ChannelDetailEngageCore.swift */,
+				04BBE6E72CFEAE9400FBF9D8 /* StartUniMateAIEngageCore.swift */,
+				04BBE6E92CFEAEF400FBF9D8 /* StartUniMateAIContentEngageCore.swift */,
+				043664F22CFEDEFD0055F2A4 /* KampLivIngEngageCore.swift */,
+			);
+			path = KampLiveChannels;
+			sourceTree = "<group>";
+		};
+		04798B3D2CFD95F600B02534 /* Moments */ = {
+			isa = PBXGroup;
+			children = (
+				04798B422CFD968600B02534 /* MomentsEngageCore.swift */,
+				044F97682CFFED52009AC6C9 /* MomentsDetailEngageCore.swift */,
+				044F977C2D0049E3009AC6C9 /* MomentKampPublicEngageCore.swift */,
+			);
+			path = Moments;
+			sourceTree = "<group>";
+		};
+		04798B3E2CFD963100B02534 /* PeerSpark */ = {
+			isa = PBXGroup;
+			children = (
+				04798B442CFD968F00B02534 /* PeerSparkEngageCore.swift */,
+				044F97782D00368C009AC6C9 /* PeerSparkDetailEngageCore.swift */,
+				047A0CCE2D02A33C0069F000 /* KampLiveLinkEngageCore.swift */,
+			);
+			path = PeerSpark;
+			sourceTree = "<group>";
+		};
+		04798B3F2CFD964B00B02534 /* SkillShowroom */ = {
+			isa = PBXGroup;
+			children = (
+				049C45F92D015691001F4198 /* Setting */,
+				04798B462CFD969900B02534 /* SkillShowroomEngageCore.swift */,
+				04B90C392D018E24001FE18F /* KampChestEngageCore.swift */,
+			);
+			path = SkillShowroom;
+			sourceTree = "<group>";
+		};
+		04798B482CFDA8F200B02534 /* StudySphere */ = {
+			isa = PBXGroup;
+			children = (
+				04798B492CFDA90000B02534 /* StudySphereEngageCore.swift */,
+			);
+			path = StudySphere;
+			sourceTree = "<group>";
+		};
+		04798B4B2CFDB3A400B02534 /* KampLiveChannels */ = {
+			isa = PBXGroup;
+			children = (
+				04798B4C2CFDB3CD00B02534 /* KampLiveChannelLattice.swift */,
+				04798B4E2CFDB8F000B02534 /* liveCollectionLatticeCell.swift */,
+				04BBE6E32CFEA7B200FBF9D8 /* ChannelDetailLatticeCell.swift */,
+				043664F42CFEE2970055F2A4 /* KampLivIngGiftLattice.swift */,
+				043664FC2CFEEC870055F2A4 /* KampLivIngGiftLattice.xib */,
+				043664F82CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.swift */,
+				043664F92CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.xib */,
+				047A0CCA2D02983A0069F000 /* KampReportOrBlockLattice.swift */,
+				047A0CCC2D0298420069F000 /* KampReportOrBlockLattice.xib */,
+				047A0CC62D028B770069F000 /* KampReportLattice.swift */,
+				047A0CC82D028B7F0069F000 /* KampReportLattice.xib */,
+				040CE6D12D069E9000FB7AF2 /* KpLiveMommentsLatticeCell.swift */,
+				04C999CC2D07DC6D001B19F6 /* KpLiveGiftShowTableViewLatticeCell.swift */,
+				04C999CE2D08151F001B19F6 /* KpUnimateAiLocalLattice.swift */,
+			);
+			path = KampLiveChannels;
+			sourceTree = "<group>";
+		};
+		049C45F22D014D0E001F4198 /* SkillShowroom */ = {
+			isa = PBXGroup;
+			children = (
+				049C45F32D014DA7001F4198 /* ShowRoomInfoReusableLattice.swift */,
+				049C45F52D014E8F001F4198 /* ShowRoomLiveReusableLattice.swift */,
+				049C45F72D014EC1001F4198 /* ShowRoomCollectionLatticeCell.swift */,
+				04B877622D015A1200403674 /* KampSettingTableViewLatticeCell.swift */,
+				04B90C3B2D01909F001FE18F /* KampChestCollectionLatticeCell.swift */,
+			);
+			path = SkillShowroom;
+			sourceTree = "<group>";
+		};
+		049C45F92D015691001F4198 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				049C45FA2D0156B0001F4198 /* KampSettingEngageCore.swift */,
+				04D4440C2D01805E00D3C1D5 /* KampAboutEngageCore.swift */,
+				04D4440E2D01806900D3C1D5 /* KampFeedbackEngageCore.swift */,
+				04552C8B2D096AE30019306A /* UserAgreementEngageCore.swift */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		04B90C3F2D01A904001FE18F /* LoginKamp */ = {
+			isa = PBXGroup;
+			children = (
+				04B90C402D01A91F001FE18F /* KampPolicyLattice.swift */,
+				04B90C422D01A925001FE18F /* KampPolicyLattice.xib */,
+			);
+			path = LoginKamp;
+			sourceTree = "<group>";
+		};
+		6F7D36DC8ABAB866183FA873 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				394B5194ECDBCE9632BFAA43 /* Pods_Kamp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91F5EEE7FA2E6BEECEA4D6C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D5F6AB6D16D2636FF6DA7ED /* Pods-Kamp.debug.xcconfig */,
+				526785AF023EF9A0E653D73A /* Pods-Kamp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0428D7DF2CFD65E5000473EC /* Kamp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428D7F32CFD65E7000473EC /* Build configuration list for PBXNativeTarget "Kamp" */;
+			buildPhases = (
+				BA766DDE57F6223F686BF51A /* [CP] Check Pods Manifest.lock */,
+				0428D7DC2CFD65E5000473EC /* Sources */,
+				0428D7DD2CFD65E5000473EC /* Frameworks */,
+				0428D7DE2CFD65E5000473EC /* Resources */,
+				4E6DF334F3A13324AEF7E915 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kamp;
+			productName = Kamp;
+			productReference = 0428D7E02CFD65E5000473EC /* Kamp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0428D7D82CFD65E5000473EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					0428D7DF2CFD65E5000473EC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 0428D7DB2CFD65E5000473EC /* Build configuration list for PBXProject "Kamp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0428D7D72CFD65E5000473EC;
+			productRefGroup = 0428D7E12CFD65E5000473EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0428D7DF2CFD65E5000473EC /* Kamp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428D7DE2CFD65E5000473EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044F97722D00000C009AC6C9 /* SelectChannelLattice.xib in Resources */,
+				043664FB2CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.xib in Resources */,
+				044F976D2CFFEE52009AC6C9 /* MomentsDetailCommentlattice.xib in Resources */,
+				047A0CC92D028B7F0069F000 /* KampReportLattice.xib in Resources */,
+				0428D8052CFD65F8000473EC /* Assets.xcassets in Resources */,
+				043664FD2CFEEC870055F2A4 /* KampLivIngGiftLattice.xib in Resources */,
+				04B90C432D01A925001FE18F /* KampPolicyLattice.xib in Resources */,
+				0428D8072CFD65F8000473EC /* LaunchScreen.storyboard in Resources */,
+				047A0CCD2D0298420069F000 /* KampReportOrBlockLattice.xib in Resources */,
+				0428D8082CFD65F8000473EC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E6DF334F3A13324AEF7E915 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kamp/Pods-Kamp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Kamp/Pods-Kamp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Kamp/Pods-Kamp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA766DDE57F6223F686BF51A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Kamp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428D7DC2CFD65E5000473EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040184072CFD8E5000D87A43 /* KampHelper.swift in Sources */,
+				044F976B2CFFEE4A009AC6C9 /* MomentsDetailCommentlattice.swift in Sources */,
+				049C45F42D014DA7001F4198 /* ShowRoomInfoReusableLattice.swift in Sources */,
+				040CE6D22D069E9000FB7AF2 /* KpLiveMommentsLatticeCell.swift in Sources */,
+				044F977B2D004481009AC6C9 /* PeerSparkDetailTableViewLatticeCell.swift in Sources */,
+				047A0CCB2D02983A0069F000 /* KampReportOrBlockLattice.swift in Sources */,
+				04C999CD2D07DC6D001B19F6 /* KpLiveGiftShowTableViewLatticeCell.swift in Sources */,
+				044F97752D0032E9009AC6C9 /* PeerSparkCollectionLatticeCell.swift in Sources */,
+				049C45FB2D0156B0001F4198 /* KampSettingEngageCore.swift in Sources */,
+				04798B432CFD968600B02534 /* MomentsEngageCore.swift in Sources */,
+				04D4440F2D01806A00D3C1D5 /* KampFeedbackEngageCore.swift in Sources */,
+				044F97792D00368C009AC6C9 /* PeerSparkDetailEngageCore.swift in Sources */,
+				04552C8C2D096AE30019306A /* UserAgreementEngageCore.swift in Sources */,
+				04B90C3C2D01909F001FE18F /* KampChestCollectionLatticeCell.swift in Sources */,
+				044F977D2D0049E3009AC6C9 /* MomentKampPublicEngageCore.swift in Sources */,
+				04B90C412D01A91F001FE18F /* KampPolicyLattice.swift in Sources */,
+				0428D8022CFD65F8000473EC /* AppDelegate.swift in Sources */,
+				043664F32CFEDEFD0055F2A4 /* KampLivIngEngageCore.swift in Sources */,
+				044F97772D0032FF009AC6C9 /* PeerSparkTableLatticeCell.swift in Sources */,
+				04798B412CFD967700B02534 /* KampLiveChannelEngageCore.swift in Sources */,
+				04BBE6E82CFEAE9400FBF9D8 /* StartUniMateAIEngageCore.swift in Sources */,
+				04798B392CFD90F400B02534 /* KampOrchestratorEngateCore.swift in Sources */,
+				04798B452CFD968F00B02534 /* PeerSparkEngageCore.swift in Sources */,
+				04798B4A2CFDA90000B02534 /* StudySphereEngageCore.swift in Sources */,
+				0428D8122CFD85AF000473EC /* LoginKampEngageCore.swift in Sources */,
+				044F2DB12CFF02CD006A66BF /* MomentCollectionLatticeCell.swift in Sources */,
+				04798B4D2CFDB3CD00B02534 /* KampLiveChannelLattice.swift in Sources */,
+				0428D8032CFD65F8000473EC /* SceneDelegate.swift in Sources */,
+				04B877632D015A1200403674 /* KampSettingTableViewLatticeCell.swift in Sources */,
+				04BBE6E62CFEA7EE00FBF9D8 /* ChannelDetailEngageCore.swift in Sources */,
+				049C45F82D014EC1001F4198 /* ShowRoomCollectionLatticeCell.swift in Sources */,
+				04D4440D2D01805E00D3C1D5 /* KampAboutEngageCore.swift in Sources */,
+				044F97702D000007009AC6C9 /* SelectChannelLattice.swift in Sources */,
+				04798B3B2CFD95A500B02534 /* KampTabbarController.swift in Sources */,
+				04C999CF2D08151F001B19F6 /* KpUnimateAiLocalLattice.swift in Sources */,
+				0428D80F2CFD8283000473EC /* EngageCore.swift in Sources */,
+				043664FA2CFEE70F0055F2A4 /* KampLivIngGiftLatticeCell.swift in Sources */,
+				04B90C3E2D0198B9001FE18F /* TalentHive.swift in Sources */,
+				049C45F62D014E8F001F4198 /* ShowRoomLiveReusableLattice.swift in Sources */,
+				04BBE6EA2CFEAEF400FBF9D8 /* StartUniMateAIContentEngageCore.swift in Sources */,
+				04798B4F2CFDB8F000B02534 /* liveCollectionLatticeCell.swift in Sources */,
+				047A0CCF2D02A33C0069F000 /* KampLiveLinkEngageCore.swift in Sources */,
+				04798B472CFD969900B02534 /* SkillShowroomEngageCore.swift in Sources */,
+				043664F52CFEE2970055F2A4 /* KampLivIngGiftLattice.swift in Sources */,
+				04B90C3A2D018E24001FE18F /* KampChestEngageCore.swift in Sources */,
+				040184052CFD8D3900D87A43 /* KpAccountLoginEngageCore.swift in Sources */,
+				04BBE6E42CFEA7B200FBF9D8 /* ChannelDetailLatticeCell.swift in Sources */,
+				047A0CC72D028B770069F000 /* KampReportLattice.swift in Sources */,
+				044F97692CFFED52009AC6C9 /* MomentsDetailEngageCore.swift in Sources */,
+				0426C63E2D1CFDD2006ADA85 /* KpUserAgreementEngateCore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0428D7FC2CFD65F8000473EC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428D7FB2CFD65F8000473EC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		0428D7FE2CFD65F8000473EC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0428D7FD2CFD65F8000473EC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0428D7F42CFD65E7000473EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5F6AB6D16D2636FF6DA7ED /* Pods-Kamp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kamp/Kamp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kamp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kamp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to use your camera for video calls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to recommend nearby users";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need to use your microphone for calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to use the photo album to select the live cover";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamp.kp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0428D7F52CFD65E7000473EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 526785AF023EF9A0E653D73A /* Pods-Kamp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Kamp/Kamp.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kamp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Kamp;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need to use your camera for video calls";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "We need your location to recommend nearby users";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Need to use your microphone for calls";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "You need to use the photo album to select the live cover";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.4;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kamp.kp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0428D7F62CFD65E7000473EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0428D7F72CFD65E7000473EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428D7DB2CFD65E5000473EC /* Build configuration list for PBXProject "Kamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D7F62CFD65E7000473EC /* Debug */,
+				0428D7F72CFD65E7000473EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428D7F32CFD65E7000473EC /* Build configuration list for PBXNativeTarget "Kamp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D7F42CFD65E7000473EC /* Debug */,
+				0428D7F52CFD65E7000473EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0428D7D82CFD65E5000473EC /* Project object */;
+}

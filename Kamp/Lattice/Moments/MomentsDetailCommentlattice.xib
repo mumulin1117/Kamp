@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="MomentsDetailCommentlattice" customModule="Kamp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="649"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0 Comments" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JbZ-TD-c7m">
+                    <rect key="frame" x="147.66666666666666" y="15" width="98" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gCJ-Ju-QgB">
+                    <rect key="frame" x="356" y="14.666666666666664" width="22" height="22"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="momentComentSendClose"/>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gbR-Bx-IWa">
+                    <rect key="frame" x="0.0" y="51" width="393" height="1"/>
+                    <color key="backgroundColor" white="1" alpha="0.10000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="0lV-bD-5zr"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="giY-IO-XvH">
+                    <rect key="frame" x="308" y="573" width="70" height="46"/>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="momentComentSendButton"/>
+                    <connections>
+                        <action selector="publishKpMyComment:" destination="iN0-l3-epB" eventType="touchUpInside" id="GTU-hL-1mC"/>
+                    </connections>
+                </button>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="h4N-bU-PM2">
+                    <rect key="frame" x="15" y="572" width="278" height="48"/>
+                    <subviews>
+                        <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="p0g-Kf-IAQ">
+                            <rect key="frame" x="17" y="0.0" width="244" height="48"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" red="0.20784313725490194" green="0.18823529411764706" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="p0g-Kf-IAQ" secondAttribute="trailing" constant="17" id="8nx-NF-H5M"/>
+                        <constraint firstAttribute="height" constant="48" id="R2a-78-TGV"/>
+                        <constraint firstAttribute="bottom" secondItem="p0g-Kf-IAQ" secondAttribute="bottom" id="fAf-A2-YKZ"/>
+                        <constraint firstItem="p0g-Kf-IAQ" firstAttribute="top" secondItem="h4N-bU-PM2" secondAttribute="top" id="m2a-rL-NcP"/>
+                        <constraint firstItem="p0g-Kf-IAQ" firstAttribute="leading" secondItem="h4N-bU-PM2" secondAttribute="leading" constant="17" id="qig-KM-jkv"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="24"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No data" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a83-72-Z8c">
+                    <rect key="frame" x="166.66666666666666" y="314" width="60" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.49019607840000001" green="0.47450980390000003" blue="0.52549019610000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.070588235294117646" green="0.047058823529411764" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JbZ-TD-c7m" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="2Xy-a4-8ln"/>
+                <constraint firstItem="a83-72-Z8c" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="ClX-M6-wVk"/>
+                <constraint firstAttribute="trailing" secondItem="gbR-Bx-IWa" secondAttribute="trailing" id="KHH-k8-TkP"/>
+                <constraint firstAttribute="trailing" secondItem="gCJ-Ju-QgB" secondAttribute="trailing" constant="15" id="ME1-gN-vfi"/>
+                <constraint firstItem="h4N-bU-PM2" firstAttribute="centerY" secondItem="giY-IO-XvH" secondAttribute="centerY" id="NgE-uN-lfc"/>
+                <constraint firstItem="a83-72-Z8c" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="NjT-Yz-RJM"/>
+                <constraint firstAttribute="bottom" secondItem="giY-IO-XvH" secondAttribute="bottom" constant="30" id="Oay-Hq-gDo"/>
+                <constraint firstItem="JbZ-TD-c7m" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="UML-8A-YXD"/>
+                <constraint firstItem="gCJ-Ju-QgB" firstAttribute="centerY" secondItem="JbZ-TD-c7m" secondAttribute="centerY" id="aJc-Z4-YNc"/>
+                <constraint firstAttribute="trailing" secondItem="giY-IO-XvH" secondAttribute="trailing" constant="15" id="bdp-vY-Ms7"/>
+                <constraint firstItem="gbR-Bx-IWa" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="51" id="cJ1-aq-Kuz"/>
+                <constraint firstItem="giY-IO-XvH" firstAttribute="leading" secondItem="h4N-bU-PM2" secondAttribute="trailing" constant="15" id="dby-BZ-8My"/>
+                <constraint firstItem="gbR-Bx-IWa" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="kx3-Mz-DoQ"/>
+                <constraint firstItem="h4N-bU-PM2" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="lyT-Ls-Xgt"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commentKpFiedl" destination="p0g-Kf-IAQ" id="boF-1x-onu"/>
+                <outlet property="mommentCloseButton" destination="gCJ-Ju-QgB" id="LBI-vc-RgN"/>
+            </connections>
+            <point key="canvasLocation" x="139.69465648854961" y="20.774647887323944"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="momentComentSendButton" width="70" height="46"/>
+        <image name="momentComentSendClose" width="22" height="22"/>
+    </resources>
+</document>

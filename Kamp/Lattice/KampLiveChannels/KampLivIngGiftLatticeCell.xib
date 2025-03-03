@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="gTV-IL-0wX" customClass="KampLivIngGiftLatticeCell" customModule="Kamp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="94" height="114"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="94" height="114"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="giftItem0" translatesAutoresizingMaskIntoConstraints="NO" id="Bkg-S5-DAl">
+                        <rect key="frame" x="17" y="14" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="Jre-5W-3Ej"/>
+                            <constraint firstAttribute="height" constant="60" id="PWk-5f-OrK"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCh-dX-cva">
+                        <rect key="frame" x="23.666666666666668" y="80" width="46.666666666666657" height="24"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KampStar" translatesAutoresizingMaskIntoConstraints="NO" id="fjb-jq-gJF">
+                                <rect key="frame" x="22.666666666666671" y="0.0" width="24" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="Lqg-VV-orW"/>
+                                    <constraint firstAttribute="height" constant="24" id="tXX-Ln-4y3"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="1000" verticalHuggingPriority="251" horizontalCompressionResistancePriority="1000" text="80" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RwD-Hh-UXZ">
+                                <rect key="frame" x="0.0" y="0.0" width="17.666666666666668" height="24"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="RwD-Hh-UXZ" secondAttribute="bottom" id="5lF-fl-1iH"/>
+                            <constraint firstItem="RwD-Hh-UXZ" firstAttribute="top" secondItem="rCh-dX-cva" secondAttribute="top" id="CUf-PG-FNM"/>
+                            <constraint firstAttribute="trailing" secondItem="fjb-jq-gJF" secondAttribute="trailing" id="Eyp-fe-v76"/>
+                            <constraint firstAttribute="bottom" secondItem="fjb-jq-gJF" secondAttribute="bottom" id="aSL-Fq-e5v"/>
+                            <constraint firstItem="fjb-jq-gJF" firstAttribute="leading" secondItem="RwD-Hh-UXZ" secondAttribute="trailing" constant="5" id="icy-JO-PB3"/>
+                            <constraint firstItem="RwD-Hh-UXZ" firstAttribute="leading" secondItem="rCh-dX-cva" secondAttribute="leading" id="lzr-aW-ZeK"/>
+                            <constraint firstItem="fjb-jq-gJF" firstAttribute="top" secondItem="rCh-dX-cva" secondAttribute="top" id="wnz-vG-3rq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="rCh-dX-cva" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="3Og-zb-aCb"/>
+                <constraint firstItem="Bkg-S5-DAl" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="nxa-6k-pbo"/>
+                <constraint firstItem="Bkg-S5-DAl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="14" id="yT9-O0-8sG"/>
+                <constraint firstItem="rCh-dX-cva" firstAttribute="top" secondItem="Bkg-S5-DAl" secondAttribute="bottom" constant="6" id="z6W-Kb-vlL"/>
+            </constraints>
+            <connections>
+                <outlet property="giftImageLattice" destination="Bkg-S5-DAl" id="gXx-8N-JTS"/>
+                <outlet property="kampStarQuantity" destination="RwD-Hh-UXZ" id="tzU-ZN-7ko"/>
+            </connections>
+            <point key="canvasLocation" x="138.93129770992365" y="20.422535211267608"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="KampStar" width="24" height="24"/>
+        <image name="giftItem0" width="60" height="60"/>
+    </resources>
+</document>

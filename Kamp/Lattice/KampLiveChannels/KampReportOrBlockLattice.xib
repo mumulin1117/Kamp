@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB" customClass="KampReportOrBlockLattice" customModule="Kamp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="270"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EZS-Pt-lLw">
+                    <rect key="frame" x="343" y="10" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="DvW-Uy-hwh"/>
+                        <constraint firstAttribute="height" constant="40" id="TZn-aT-ydx"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="momentComentSendClose"/>
+                    <connections>
+                        <action selector="reportCloseRelay:" destination="iN0-l3-epB" eventType="touchUpInside" id="2tU-eo-sKp"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report or Block User?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9E9-cf-yO3">
+                    <rect key="frame" x="19" y="40" width="234" height="27"/>
+                    <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SrW-9e-M57">
+                    <rect key="frame" x="20" y="103" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="N9W-nf-qIc"/>
+                        <constraint firstAttribute="width" constant="60" id="hDE-uP-CTx"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="kampBlockButton"/>
+                    <connections>
+                        <action selector="reportOrBlockRalay:" destination="iN0-l3-epB" eventType="touchUpInside" id="uKu-7c-u0K"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Block" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdz-tw-nHz">
+                    <rect key="frame" x="29.666666666666671" y="174" width="41" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YN8-tp-JZ7">
+                    <rect key="frame" x="120" y="103" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="hn6-RV-nJf"/>
+                        <constraint firstAttribute="width" constant="60" id="rAj-gO-Upu"/>
+                    </constraints>
+                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" backgroundImage="kampReportButton"/>
+                    <connections>
+                        <action selector="reportOrBlockRalay:" destination="iN0-l3-epB" eventType="touchUpInside" id="JPC-6x-Kpu"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y9k-rm-D4o">
+                    <rect key="frame" x="125.66666666666669" y="174" width="49" height="20"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.070588235294117646" green="0.047058823529411764" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="y9k-rm-D4o" firstAttribute="centerY" secondItem="Fdz-tw-nHz" secondAttribute="centerY" id="BIT-f6-cEE"/>
+                <constraint firstItem="Fdz-tw-nHz" firstAttribute="top" secondItem="SrW-9e-M57" secondAttribute="bottom" constant="11" id="BjN-02-YEx"/>
+                <constraint firstItem="SrW-9e-M57" firstAttribute="top" secondItem="9E9-cf-yO3" secondAttribute="bottom" constant="36" id="Cih-Fm-0Ra"/>
+                <constraint firstItem="YN8-tp-JZ7" firstAttribute="top" secondItem="SrW-9e-M57" secondAttribute="top" id="D1a-pn-NKC"/>
+                <constraint firstItem="y9k-rm-D4o" firstAttribute="centerX" secondItem="YN8-tp-JZ7" secondAttribute="centerX" id="YXs-sD-dAm"/>
+                <constraint firstItem="SrW-9e-M57" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="20" id="eGo-K7-ZCz"/>
+                <constraint firstItem="Fdz-tw-nHz" firstAttribute="centerX" secondItem="SrW-9e-M57" secondAttribute="centerX" id="sVE-K9-jTh"/>
+                <constraint firstItem="9E9-cf-yO3" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="19" id="tkU-Kc-3Pp"/>
+                <constraint firstItem="9E9-cf-yO3" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="40" id="ulf-kp-xB5"/>
+                <constraint firstItem="YN8-tp-JZ7" firstAttribute="leading" secondItem="SrW-9e-M57" secondAttribute="trailing" constant="40" id="wnT-0G-ZnV"/>
+                <constraint firstAttribute="trailing" secondItem="EZS-Pt-lLw" secondAttribute="trailing" constant="10" id="xUZ-Fp-Reo"/>
+                <constraint firstItem="EZS-Pt-lLw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="10" id="yqW-Tg-ddH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="136.64122137404578" y="20.422535211267608"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="kampBlockButton" width="64" height="64"/>
+        <image name="kampReportButton" width="64" height="64"/>
+        <image name="momentComentSendClose" width="22" height="22"/>
+    </resources>
+</document>
